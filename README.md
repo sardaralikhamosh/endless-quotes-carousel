@@ -1,4 +1,4 @@
-![Demo Preview](https://github.com/sardaralikhamosh/endless-quotes-carousel/blob/main/media/demo-page-layout.png?raw=true)
+![Demo Preview](https://github.com/sardaralikhamosh/endless-quotes-carousel/blob/main/media/moving-text-carousel.png)
 # 🔄 Endless Quotes Carousel  
 
 **[★ Star this repo]** · 
