@@ -1,3 +1,6 @@
+<header>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</header>
 <div class="infinite-marquee">
     <div class="marquee-content">
         <label style="color:#fff; font-weight: 500; font-size:25px;">
