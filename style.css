@@ -1,6 +1,8 @@
 /*This file is created by sardaralikhamosh*/
 /*you can use the code in your project its free for you all*/
 /*this text carousel will move from left to right wit infinite loop and without any gape inbetwen*/
+/*you can see the live preview here "https://www.brightonmurdermystery.co.uk"  on this website in the 4th section with before the video section on home page*/
+
 .infinite-marquee {
     width: 100%;
     overflow: hidden;
