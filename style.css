@@ -1,7 +1,17 @@
-/*This file is created by sardaralikhamosh*/
-/*you can use the code in your project its free for you all*/
-/*this text carousel will move from left to right wit infinite loop and without any gape inbetwen*/
-/*you can see the live preview here "https://www.brightonmurdermystery.co.uk"  on this website in the 4th section with before the video section on home page*/
+/**
+ * Infinite Horizontal Text Carousel 
+ * Created by Sardar Ali Khamosh
+ * Free to use in personal/commercial projects
+ * 
+ * Features:
+ * - Pure CSS (no JavaScript)
+ * - Seamless infinite loop
+ * - Fully customizable speed/spacing
+ * - Responsive by default
+ * 
+ * Live demo: https://www.brightonmurdermystery.co.uk
+ * (Used in the 4th section before the video)
+ */
 
 .infinite-marquee {
     width: 100%;
@@ -9,20 +19,24 @@
     display: flex;
     white-space: nowrap;
     box-sizing: border-box;
-    background: transparent; /* Change as needed */
+    background: transparent;
+    position: relative; /* Ensures proper containment */
 }
 
 .marquee-content {
     display: inline-block;
     animation: marquee 30s linear infinite;
-    padding-right: 10px; /* Adjust spacing between copies */
+    padding-right: 10px;
+    flex-shrink: 0; /* Prevents content compression */
 }
 
 .marquee-content label {
     display: inline-block;
-    padding-right: 50px; /* Adjust spacing between items */
+    padding-right: 50px;
+    margin: 0; /* Removes default margin for consistency */
 }
 
+/* Animation */
 @keyframes marquee {
     0% {
         transform: translateX(0);
@@ -30,4 +44,9 @@
     100% {
         transform: translateX(-50%);
     }
+}
+
+/* Optional: Pause animation on hover */
+.infinite-marquee:hover .marquee-content {
+    animation-play-state: paused;
 }
